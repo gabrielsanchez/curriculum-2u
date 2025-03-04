@@ -22,7 +22,7 @@ This lesson encourages experimentation. Use the included [Collaboratory notebook
 
 ## Introduction
 
-Plotly is a tool that helps you create **interactive** charts and graphs easily. Unlike regular charts, Plotly charts let you **zoom in, hover over points to see details, and even turn data on or off** by clicking the legend. Plotly allows data scientists to explore and present data in a visually engaging and interactive way. Think of it as a **"smart" graph maker** that lets you play with your data instead of just looking at it!
+Plotly is a tool that helps you create interactive charts and graphs easily. Unlike regular charts, Plotly charts let you zoom in, hover over points to see details, and even turn data on or off by clicking the legend. Plotly allows data scientists to explore and present data in a visually engaging and interactive way. Think of it as a "smart" graph maker that lets you play with your data instead of just looking at it!
 
 The following video provides an introduction to Plotly. After watching the video, proceed with the lesson.
 
