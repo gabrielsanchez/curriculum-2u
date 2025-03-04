@@ -24,7 +24,9 @@ This lesson encourages experimentation. Use the included [Collaboratory notebook
 
 Plotly is a tool that helps you create **interactive** charts and graphs easily. Unlike regular charts, Plotly charts let you **zoom in, hover over points to see details, and even turn data on or off** by clicking the legend. Plotly allows data scientists to explore and present data in a visually engaging and interactive way. Think of it as a **"smart" graph maker** that lets you play with your data instead of just looking at it!
 
-The following video presents
+The following video provides an introduction to Plotly. After watching the video, proceed with the lesson.
+
+TODO - Video: [video script](videoscript.md)
 
 ## Installing and Importing Plotly
 
@@ -179,6 +181,58 @@ fig.show()
 ```
 
 ![Customize colors and themes](themes.png)
+
+## Practice
+
+### Coding Assessment
+
+Practice the concepts from this lesson using this [notebook](https://colab.research.google.com/drive/1Lo4xHUx_PSZJgvJEjtXeykAcqTr1u1lh?usp=sharing). After completing the exercises, save your notebook to GitHub and submit the link for grading
+
+### Knowledge Check
+
+Here are three **multiple-choice questions** based on the lesson content to test students' understanding of Plotly and its features:
+
+---
+
+#### **Question 1: What is Plotly primarily used for?**
+1. Creating static, non-interactive charts.
+2. Performing statistical analysis on datasets.
+3. Creating interactive and visually engaging charts.
+4. Cleaning and preprocessing data.
+
+**Correct Answer:**  
+3. Creating interactive and visually engaging charts.
+
+**Explanation:**  
+Plotly is a graphing library that specializes in creating **interactive** charts, allowing users to zoom, hover, and toggle data on or off for a more engaging experience.
+
+---
+
+#### **Question 2: What does the `color` parameter in `px.scatter()` do?**
+1. It changes the background color of the chart.
+2. It assigns different colors to data points based on a categorical column.
+3. It changes the color of the x-axis and y-axis labels.
+4. It changes the color of the chart title.
+
+**Correct Answer:**  
+2. It assigns different colors to data points based on a categorical column.
+
+**Explanation:**  
+The `color` parameter in `px.scatter()` is used to differentiate data points by assigning them colors based on a categorical column (e.g., grouping data by categories like "Type A", "Type B", etc.).
+
+---
+
+#### **Question 3: What is the purpose of the `barmode='group'` parameter in a grouped bar chart?**
+1. It stacks the bars on top of each other.
+2. It groups bars by category side by side.
+3. It changes the orientation of the bars from vertical to horizontal.
+4. It hides the legend of the chart.
+
+**Correct Answer:**  
+2. It groups bars by category side by side.
+
+**Explanation:**  
+The `barmode='group'` parameter ensures that bars representing different categories are displayed side by side within each group, making it easier to compare values across categories.
 
 ## Conclusion
 
