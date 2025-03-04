@@ -9,7 +9,7 @@ In the previous lesson, you explored basic charts like scatter plots, bar charts
 By the end of this lesson you will be able to:
 
 - Present data in more engaging and user-friendly formats.
-- Create common chart types (histograms, scatter plots) with Plotly.
+- Create common chart types (line charts, bar charts, scatter plots) with Plotly.
 - Customize plots with titles, labels, and legends.
 
 ## Key terms
@@ -40,11 +40,9 @@ Once installed, you can import Plotly in your Python script or notebook like thi
 
 ```python
 import plotly.express as px
-import plotly.graph_objects as go
 ```
 
 - **Plotly Express (`px`)** is a high-level interface that makes it easy to create quick and interactive visualizations with minimal code.  
-- **Plotly Graph Objects (`go`)** provides more customization and control over chart elements.
 
 After installation and import, you're ready to start creating interactive charts with Plotly!
 
@@ -186,13 +184,9 @@ fig.show()
 
 ### Coding Assessment
 
-Practice the concepts from this lesson using this [notebook](https://colab.research.google.com/drive/1Lo4xHUx_PSZJgvJEjtXeykAcqTr1u1lh?usp=sharing). After completing the exercises, save your notebook to GitHub and submit the link for grading
+Practice the concepts from this lesson using this [notebook](https://colab.research.google.com/drive/1Lo4xHUx_PSZJgvJEjtXeykAcqTr1u1lh?usp=sharing). After completing the exercises, save your notebook to GitHub and submit the link for grading.
 
-### Knowledge Check
-
-Here are three **multiple-choice questions** based on the lesson content to test students' understanding of Plotly and its features:
-
----
+### Knowledge Check (or interactive Q&A AI simulation activity)
 
 #### **Question 1: What is Plotly primarily used for?**
 1. Creating static, non-interactive charts.
