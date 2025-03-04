@@ -22,7 +22,7 @@ This lesson encourages experimentation. Use the included [Collaboratory notebook
 
 ## Introduction
 
-Plotly is a tool that helps you create interactive charts and graphs easily. Unlike regular charts, Plotly charts let you zoom in, hover over points to see details, and even turn data on or off by clicking the legend. Plotly allows data scientists to explore and present data in a visually engaging and interactive way. Think of it as a "smart" graph maker that lets you play with your data instead of just looking at it!
+[Plotly](https://plotly.com/python-api-reference/) is a tool that helps you create interactive charts and graphs easily. Unlike regular charts, Plotly charts let you zoom in, hover over points to see details, and even turn data on or off by clicking the legend. Plotly allows data scientists to explore and present data in a visually engaging and interactive way. Think of it as a "smart" graph maker that lets you play with your data instead of just looking at it!
 
 The following video provides an introduction to Plotly. After watching the video, proceed with the lesson.
 
@@ -52,7 +52,7 @@ After installation and import, you're ready to start creating interactive charts
 
 Recall that a scatter plot is used to display the relationship between two numerical variables, where each data point is represented by its coordinates on the x and y axes. This allows you to quickly identify trends, clusters, or outliers in your data.
 
-In Plotly, creating a scatter plot is straightforward: you simply provide your DataFrame, the columns for the x and y axes, and optionally use additional parameters such as `color` or `symbol` to highlight different categories. For example, you can run `fig = px.scatter(df, x='columnX', y='columnY', color='category')` and then call `fig.show()` to generate an interactive scatter plot that displays tooltips, supports zooming, and allows you to toggle data series on or off.
+In Plotly, creating a scatter plot is straightforward: you simply provide your DataFrame, the columns for the x and y axes, and optionally use additional parameters such as `color` or `symbol` to highlight different categories. After defining a DataFrame, use Plotly's [px.scatter()](https://plotly.com/python-api-reference/generated/plotly.express.scatter.html) function to create a scatter plot. For example, you can run `fig = px.scatter(df, x='columnX', y='columnY', color='category')` and then call `fig.show()` to generate an interactive scatter plot that displays tooltips, supports zooming, and allows you to toggle data series on or off.
 
 First, create a sample dataset:
 
@@ -86,7 +86,7 @@ The code above takes data from the table (df_scatter), puts values from column "
 
 ### Line Chart
 
-In the previous lesson, you learned that a line chart is used to display data points connected by straight lines, making it ideal for showing trends over time or ordered categories. Here's an example on how to create a line chart with Plotly:
+In the previous lesson, you learned that a line chart is used to display data points connected by straight lines, making it ideal for showing trends over time or ordered categories. Use Plotly's [px.line()](https://plotly.com/python-api-reference/generated/plotly.express.line.html) function to create line charts. Take a look at the example below on how to create a line chart with Plotly:
 
 First, create a sample dataset:
 
@@ -118,7 +118,7 @@ The code above takes data from the table (df_line), puts values from the "Year" 
 
 ### Grouped Bar Chart
 
-A grouped bar chart is used to compare multiple categories across different groups. Each group is represented by a set of bars, and each bar within the group represents a different category. In Plotly, you can create a grouped bar chart using `plotly.express` or `plotly.graph_objects`. Here's an example using `plotly.express`:
+A grouped bar chart is used to compare multiple categories across different groups. Each group is represented by a set of bars, and each bar within the group represents a different category. In Plotly, you can create a grouped bar chart using the [px.bar()](https://plotly.com/python-api-reference/generated/plotly.express.bar.html) function. Here's an example:
 
 First, create a sample dataset:
 
