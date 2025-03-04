@@ -151,11 +151,13 @@ The code above takes data from the table (df_bar), puts values from the "Group" 
 
 ![A grouped bar chart](barchart.png)
 
+Plotly offers a [wide range of chart types](https://plotly.com/python/basic-charts/), and you’ll have the opportunity to explore more of them in upcoming lessons as part of this program. For now, feel free to check out [Plotly’s documentation](https://plotly.com/python/basic-charts/) to discover its diverse graphical capabilities.
+
 ## Customizing Plots
 
 ### Adding Titles, Labels, and Legends
 
-You can customize your Plotly charts by adding titles, axis labels, and legends. Here's how you can do it:
+The [`update_layout`](https://plotly.com/python/reference/layout/) function in Plotly allows you to customize the layout of your charts. It enables you to modify various aspects of the chart's appearance, such as titles, axis labels, legends, margins, and more. Take a look at the example below:
 
 ```python
 fig.update_layout(
