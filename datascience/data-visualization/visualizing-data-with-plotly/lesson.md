@@ -18,7 +18,7 @@ By the end of this lesson you will be able to:
 
 ## Starter Code
 
-This lesson encourages experimentation. Use the included [Collaboratory notebook]() to run the code as you learn, or read the lesson and then freely experiment with the notebook's code.
+This lesson encourages experimentation. Use the included [Collaboratory notebook](https://colab.research.google.com/drive/1UGBxHR7q9b-C39se9Nln-p2FAcxfLQfI?usp=sharing) to run the code as you learn, or read the lesson and then freely experiment with the notebook's code.
 
 ## Introduction
 
@@ -166,6 +166,7 @@ fig.update_layout(
 )
 fig.show()
 ```
+![Customize titles, labels, and legends](titles.png)
 
 ### Changing Colors and Themes
 
@@ -176,6 +177,8 @@ fig.update_traces(marker=dict(color='red'))  # Change marker color
 fig.update_layout(template='plotly_dark')    # Change theme to dark
 fig.show()
 ```
+
+![Customize colors and themes](themes.png)
 
 ## Conclusion
 
